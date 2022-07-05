@@ -10,6 +10,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
+        maven {
+            // Esri public Maven repository
+            url 'https://esri.jfrog.io/artifactory/arcgis'
+        }
     }
 }
 rootProject.name = "UCExample"
